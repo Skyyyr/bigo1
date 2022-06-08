@@ -97,7 +97,7 @@ def insertionSort(arr):
 ```
 
 ## Snippet 8 -
-### Big O: O(n)
+### Big O: O(n^2)
 ### Explanation: looping over array of data
 
 ```python
