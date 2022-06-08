@@ -1,8 +1,8 @@
 # Big O Answers
 
 ## Snippet 1 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: only looping over the array once - at most the entire array
 ```python
 def largest(array, value):
   for item in array:
@@ -13,8 +13,8 @@ def largest(array, value):
 
 
 ## Snippet 2 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: 2 loops that are the same, but not at the same time.
 
 ```python
 def info_dump(customers):
@@ -30,8 +30,8 @@ def info_dump(customers):
 ```
 
 ## Snippet 3 -
-### Big O:
-### Explanation:
+### Big O: O(1)
+### Explanation: grabbing a value at index, no loops
 
 ```python
 def first_element_is_red(array):
@@ -39,8 +39,8 @@ def first_element_is_red(array):
 ```
 
 ## Snippet 4 -
-### Big O:
-### Explanation:
+### Big O: O(n^2)
+### Explanation: we are looping over each element, and looping over each index.
 
 ```python
 def duplicates(array):
@@ -54,8 +54,8 @@ def duplicates(array):
 ``` 
 
 ## Snippet 5 -
-### Big O:
-### Explanation:
+### Big O: O(n * m)
+### Explanation: even though nested, looping over different arrays where n reps one array, and m reps the other array
 
 ```python
 words = ['chocolate', 'coconut', 'rainbow']
@@ -68,8 +68,8 @@ for word in words:
 ```
 
 ## Snippet 6 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: looping over the array once
 
 ```python
 numbers = [1,2,3,4,5,6,7,8,9,10]
@@ -81,8 +81,8 @@ def print_array(array):
 ```
 
 ## Snippet 7 -
-### Big O:
-### Explanation:
+### Big O: O(n^2)
+### Explanation: loop over the elements in array, and loop over each element
 
 ```python
 # this is insertion sort
@@ -97,8 +97,8 @@ def insertionSort(arr):
 ```
 
 ## Snippet 8 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: looping over array of data
 
 ```python
 for i in range(len(my_list)):
